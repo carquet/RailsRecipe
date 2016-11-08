@@ -26,7 +26,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'haml', '~> 4.0', '>= 4.0.7'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -46,3 +49,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
